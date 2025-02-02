@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src = "js/script.js"></script>
+</head>
+<body onload="applyTabIndex()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Lake View" src = "images/lake_view.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "doFocus(this)" onblur = "undoFocus()">
+	
+	<img class = "preview" alt = "Mist Over Huron River" src = "images/mist_over_huron_river.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "doFocus(this)" onblur = "undoFocus()">
+	
+	<img class = "preview" src = "images/huron_river_cascades.JPG" alt = "Huron River Cascades" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "doFocus(this)" onblur = "undoFocus()">
+
+ 	<img class = "preview" src = "images/munising.jpg" alt = "Munising" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "doFocus(this)" onblur = "undoFocus()">
+  
+ 	<img class = "preview" src = "images/reflected_tree.JPG" alt = "Reflected Tree" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "doFocus(this)" onblur = "undoFocus()"> 
+  
+  	<img class = "preview" src = "images/BaconGallupPark.jpg" alt = "Bacon Gallup Park" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "doFocus(this)" onblur = "undoFocus()">
+  
+</body>
+</html>
